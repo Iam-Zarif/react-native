@@ -3,4 +3,6 @@
 
  - Setup CI/CD through.yml file
 
- <img src="./app.jpg" alt="App Preview" style="max-width: 100%; height: auto;" />
+<div style="max-width: 320px; margin: auto;">
+  <img src="./app.jpg" alt="App Preview" style="width: 100%; height: auto; border-radius: 12px;" />
+</div>
