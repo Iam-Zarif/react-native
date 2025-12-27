@@ -65,7 +65,7 @@ export default function Home() {
   };
 
   return (
-    <SafeAreaView style={styles.safe} edges={["top"]}>
+    <SafeAreaView style={styles.safe} edges={["top", "bottom"]}>
       <View style={styles.navbar}>
         <Text style={styles.navTitle}>Users Directory</Text>
       </View>
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: 36,
+    height: 30,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "rgba(21, 20, 20, 1)",
