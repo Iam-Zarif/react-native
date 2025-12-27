@@ -3,7 +3,7 @@ name: EAS Build
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   build:
@@ -20,13 +20,10 @@ jobs:
       - name: Install EAS CLI
         run: npm install -g eas-cli
 
-      - name: Login to Expo
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas login --token $EXPO_TOKEN
-
       - name: Install dependencies
         run: npm install
 
-      - name: Build Android
+      - name: Build Android APK
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: eas build --platform android --non-interactive --profile production
