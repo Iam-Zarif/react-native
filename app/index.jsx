@@ -82,10 +82,12 @@ export default Home;
 const styles = StyleSheet.create({
   safe: {
     flex: 1,
+     backgroundColor: "#fff",
   },
   container: {
     paddingHorizontal: 16,
     paddingVertical: 24,
+      backgroundColor: "#fff",
   },
   card: {
     marginBottom: 24,
