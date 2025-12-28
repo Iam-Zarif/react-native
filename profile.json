@@ -1,0 +1,109 @@
+{
+  "basic": {
+    "name": "Mostofa Fatin",
+    "role": "Frontend Developer",
+    "location": "Dhaka, Bangladesh",
+    "email": "mostofafatin.developer@gmail.com",
+    "phone": "+8801933329902",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/mostofafatin",
+      "github": "https://github.com/xpartex-fatin",
+      "portfolio": "https://mostofafatin.dev"
+    }
+  },
+
+  "summary": "Highly skilled Frontend Developer with a strong focus on scalable architecture, performance optimization, SEO, and clean UI/UX. Proven experience delivering production-ready web applications.",
+
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "SASS",
+      "GSAP"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "WebSocket",
+      "Nodemailer",
+      "Firestore"
+    ],
+    "tools": [
+      "Figma",
+      "VS Code",
+      "GitHub",
+      "JIRA",
+      "Trello",
+      "Postman",
+      "Cloudinary",
+      "Firebase",
+      "Vercel",
+      "Netlify",
+      "CI/CD (GitHub)"
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Manama Developments Ltd.",
+      "role": "Sole Fullstack Developer (MERN)",
+      "type": "Remote Contract",
+      "projects": [
+        "manamadevelopments.com",
+        "admin.manamadevelopments.com",
+        "control.manamadevelopments.com"
+      ],
+      "responsibilities": [
+        "CMS & performance optimization",
+        "SEO-friendly architecture",
+        "Admin dashboard & APIs"
+      ]
+    },
+    {
+      "company": "TARS Industries",
+      "role": "Frontend Developer",
+      "duration": "Oct 2022 – Nov 2024",
+      "responsibilities": [
+        "Design-focused frontend using Tailwind",
+        "Performance monitoring & optimization",
+        "Collaboration with backend & design teams"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Krishighar.com",
+      "role": "Sole Frontend Developer",
+      "features": [
+        "Multi-role system",
+        "Product marketplace",
+        "Payment gateway",
+        "Dashboard & analytics",
+        "SEO optimized"
+      ]
+    },
+    {
+      "name": "Tars Universe",
+      "client": "tarsuniverse.com",
+      "admin": "admin.tarsuniverse.com"
+    }
+  ],
+
+  "education": {
+    "degree": "B.Sc in Computer Science & Engineering",
+    "institution": "Tejgaon College",
+    "session": "2019–2020"
+  },
+
+  "languages": ["Bangla (Native)", "English (Fluent)", "Hindi (Understandable)"]
+}
