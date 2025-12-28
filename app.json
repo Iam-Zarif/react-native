@@ -2,7 +2,7 @@
   "expo": {
     "scheme": "Zarif",
     "name": "Zarif",
-    "slug": "Zarif",
+    "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/zarif.png",
