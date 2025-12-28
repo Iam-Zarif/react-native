@@ -49,7 +49,9 @@ if (!profile) {
               </Text>
             </LinearGradient>
           </View>
-          <Text style={styles.role}>{profile.basic.role}</Text>
+          <Text style={styles.role}>
+            {profile.basic.role} at XPARTEX Limited
+          </Text>
           <Text style={styles.muted}>{profile.basic.location}</Text>
         </View>
 
@@ -80,11 +82,34 @@ if (!profile) {
           ))}
         </Section>
 
-        <Section title="Experience">
+        <Section title="Professional Experience">
           {profile.experience.map((exp, i) => (
-            <View key={i} style={styles.block}>
-              <Text style={styles.bold}>{exp.company}</Text>
-              <Text style={styles.muted}>{exp.role}</Text>
+            <View key={i} style={styles.experienceCard}>
+              <Text style={styles.expCompany}>{exp.company}</Text>
+              <Text style={styles.expRole}>
+                {exp.role} · {exp.type}
+              </Text>
+              <Text style={styles.expDuration}>{exp.duration}</Text>
+
+              {/* Projects */}
+              <View style={styles.expBlock}>
+                <Text style={styles.expSubtitle}>Projects</Text>
+                {exp.projects.map((p, idx) => (
+                  <Text key={idx} style={styles.expItem}>
+                    • {p.name} — {p.description}
+                  </Text>
+                ))}
+              </View>
+
+              {/* Responsibilities */}
+              <View style={styles.expBlock}>
+                <Text style={styles.expSubtitle}>Responsibilities</Text>
+                {exp.responsibilities.map((r, idx) => (
+                  <Text key={idx} style={styles.expItem}>
+                    • {r}
+                  </Text>
+                ))}
+              </View>
             </View>
           ))}
         </Section>
@@ -169,6 +194,44 @@ const styles = StyleSheet.create({
   loaderSafe: {
     flex: 1,
     backgroundColor: "#020617", // dark slate
+  },
+  experienceCard: {
+    marginBottom: 12,
+  },
+
+  expCompany: {
+    fontSize: 14,
+    fontWeight: "800",
+    color: "#fff",
+  },
+
+  expRole: {
+    fontSize: 12,
+    color: "#a5b4fc",
+    marginTop: 2,
+  },
+
+  expDuration: {
+    fontSize: 11,
+    color: "#94a3b8",
+    marginBottom: 6,
+  },
+
+  expBlock: {
+    marginTop: 6,
+  },
+
+  expSubtitle: {
+    fontSize: 12,
+    fontWeight: "700",
+    color: "#e5e7eb",
+    marginBottom: 4,
+  },
+
+  expItem: {
+    fontSize: 12,
+    color: "#cbd5f5",
+    lineHeight: 18,
   },
 
   loaderContainer: {

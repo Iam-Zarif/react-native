@@ -53,33 +53,80 @@
     ]
   },
 
-  "experience": [
-    {
-      "company": "Manama Developments Ltd.",
-      "role": "Sole Fullstack Developer (MERN)",
-      "type": "Remote Contract",
-      "projects": [
-        "manamadevelopments.com",
-        "admin.manamadevelopments.com",
-        "control.manamadevelopments.com"
-      ],
-      "responsibilities": [
-        "CMS & performance optimization",
-        "SEO-friendly architecture",
-        "Admin dashboard & APIs"
-      ]
-    },
-    {
-      "company": "TARS Industries",
-      "role": "Frontend Developer",
-      "duration": "Oct 2022 – Nov 2024",
-      "responsibilities": [
-        "Design-focused frontend using Tailwind",
-        "Performance monitoring & optimization",
-        "Collaboration with backend & design teams"
-      ]
-    }
-  ],
+"experience": [
+  {
+    "company": "XPARTEX Limited",
+    "role": "Frontend Engineer",
+    "type": "Full-time",
+    "duration": "Present",
+    "projects": [
+      {
+        "name": "Fujian Accessories Co. Ltd.",
+        "description": "Official company website & frontend architecture"
+      },
+      {
+        "name": "XPARTEX Official Website",
+        "description": "Corporate website & UI system"
+      }
+    ],
+    "responsibilities": [
+      "Production-ready frontend architecture",
+      "Performance optimization & SEO",
+      "Reusable component systems",
+      "Multi-domain handling"
+    ]
+  },
+
+  {
+    "company": "WEBEFO",
+    "role": "Frontend Engineer (Certificate)",
+    "type": "Contract / Research-based",
+    "duration": "Jan 2025 – Sep 2025",
+    "projects": [
+      {
+        "name": "Manama Developments Ltd.",
+        "description": "Sole Fullstack Developer (MERN) for client project"
+      },
+      {
+        "name": "SquareCraft (Squarespace Plugin)",
+        "description": "Custom Squarespace plugin via code injection"
+      },
+      {
+        "name": "Krishighar.com",
+        "description": "Frontend development for multi-role ecommerce platform"
+      }
+    ],
+    "responsibilities": [
+      "Fullstack MERN development",
+      "Squarespace plugin engineering",
+      "Research & maintenance due to lack of documentation",
+      "Automation & workflow optimization"
+    ]
+  },
+
+  {
+    "company": "TARS Industries",
+    "role": "Frontend Developer",
+    "type": "Full-time (On-site)",
+    "duration": "Oct 2022 – Nov 2024",
+    "projects": [
+      {
+        "name": "tarsindustries.com",
+        "description": "Official company website"
+      },
+      {
+        "name": "tarsuniverse.com",
+        "description": "Client-facing real estate platform"
+      }
+    ],
+    "responsibilities": [
+      "Design-focused frontend using Tailwind CSS",
+      "Performance monitoring via devtools",
+      "Collaboration with backend & design teams",
+      "SEO & analytics-ready UI"
+    ]
+  }
+],
 
   "projects": [
     {
