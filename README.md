@@ -8,5 +8,5 @@
 <img src="./app.jpg" alt="App Preview" style="max-width: 100%; width: 250px; height: auto; border-radius: 12px;" />
 
 sample portfolio landing page
-<img src="./portfolio.jpeg" alt="App Preview" style="max-width: 100%; width: 250px; height: auto; border-radius: 12px;" />
+<img src="./assets/landing.jpeg" alt="App Preview" style="max-width: 100%; width: 250px; height: auto; border-radius: 12px;" />
 
