@@ -4,13 +4,16 @@ import {
   Image,
   ScrollView,
   TouchableOpacity,
-  StyleSheet,
 } from "react-native";
 import landingData from "./landing.json";
 import { styles } from "../styles/index.styles";
+import { useRouter } from "expo-router";
+
 
 export default function Home() {
   const data = landingData;
+    const navigation = useRouter();
+  
 
   if (!data) {
     return (
@@ -76,7 +79,7 @@ export default function Home() {
             borderRadius: 12,
             alignSelf: "center",
           }}
-          onPress={() => navigation.navigate("Products")}
+          onPress={() => navigation.navigate("/products")}
         >
           <Text style={[styles.productButtonText, { textAlign: "center" }]}>
             All Products
