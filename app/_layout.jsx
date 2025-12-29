@@ -8,7 +8,7 @@
     const [drawerOpen, setDrawerOpen] = useState(false);
 
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: "#eaebedff" }} edges={["top", "bottom"]}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: "#eaebedff" }} edges={[ "bottom"]}>
         <Navbar
           onMenuPress={() => setDrawerOpen(true)}
           onProfilePress={() => console.log("Profile pressed")}

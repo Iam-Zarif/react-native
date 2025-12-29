@@ -67,6 +67,7 @@ showMoreButtonText: {
 pickerContainer: {
   backgroundColor: '#fff',
   borderRadius: 12,
+  color:"#0B0B1F",
   overflow: 'hidden',
   shadowColor: '#000',
   shadowOffset: { width: 0, height: 2 },
@@ -80,6 +81,8 @@ pickerContainer: {
 
 picker: {
   width: '100%',
+    color:"#0B0B1F",
+
 fontSize:12,
 }
 

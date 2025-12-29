@@ -10,3 +10,6 @@
 sample portfolio landing page
 <img src="./assets/landing.jpeg" alt="App Preview" style="max-width: 100%; width: 250px; height: auto; border-radius: 12px;" />
 
+
+drive screen recording link - [text](https://drive.google.com/file/d/131CZAeHqmvvaT1HoKRpHy6Xe5yNPRKmI/view?usp=sharing)
+
