@@ -4,6 +4,9 @@
     "name": "Zarif",
     "slug": "app",
     "version": "1.0.0",
+     "web": {
+      "bundler": "metro"
+    },
     "orientation": "portrait",
     "icon": "./assets/zarif.png",
     "userInterfaceStyle": "light",

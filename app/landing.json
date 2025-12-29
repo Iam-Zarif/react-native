@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "Welcome to ShopEase",
+    "subtitle": "Find your favorite products quickly and easily",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/010/106/778/small/shopping-list-people-illustration-with-smartphone-vector.jpg"
+  },
+  "categories": [
+    { "id": 1, "name": "Electronics", "image": "https://cdn-icons-png.flaticon.com/512/5819/5819387.png" },
+    { "id": 2, "name": "Clothing", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmcXjQ_qZU2H61v2_JncYbr_LmJdsw_qRydA&s" },
+    { "id": 3, "name": "Home & Decor", "image": "https://cdn-icons-png.flaticon.com/512/2621/2621957.png" },
+    { "id": 4, "name": "Books", "image": "https://cdn-icons-png.flaticon.com/512/3429/3429149.png" },
+    { "id": 5, "name": "Toys & Games", "image": "https://cdn-icons-png.flaticon.com/512/3150/3150739.png" },
+    { "id": 6, "name": "Sports", "image": "https://cdn-icons-png.flaticon.com/512/889/889597.png" }
+  ],
+  "featuredProducts": [
+    { "id": 1, "name": "Smartphone X", "price": "$799", "image": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 2, "name": "Headphones Pro", "price": "$199", "image": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 3, "name": "Sneakers Classic", "price": "$129", "image": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 4, "name": "Designer Bag", "price": "$249", "image": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" }
+  ],
+  "newArrivals": [
+    { "id": 1, "name": "Wireless Mouse", "price": "$49", "image": "https://petapixel.com/assets/uploads/2023/06/Boss-Infinite-800x533.jpg" },
+    { "id": 2, "name": "Yoga Mat", "price": "$39", "image": "https://claid.ai/static/8a0b66f9d75ba67df9ec0f1441f6d6d2/d492e/big-image-background-mobile.png" },
+    { "id": 3, "name": "LED Desk Lamp", "price": "$59", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPipmiOkIHVxOBWEbYlFxZHjJR6bnV2hllYA&s" }
+  ],
+  "bestSellers": [
+    { "id": 1, "name": "Gaming Laptop", "price": "$1299", "image": "https://petapixel.com/assets/uploads/2023/06/Boss-Infinite-800x533.jpg" },
+    { "id": 2, "name": "Bluetooth Speaker", "price": "$89", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSOrIHIncvVwcn86Yj1lG2no3rymRPhF1AQ&s" },
+    { "id": 3, "name": "Fitness Tracker", "price": "$129", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2T5giokNY_TM77ObVOP7y9qrCsY9xirOoQ&s" }
+  ],
+  "discounts": [
+    { "id": 1, "title": "Holiday Sale", "discount": "Up to 50% Off", "image": "https://cdn.prod.website-files.com/5ee0a01b09389eebf4c09b45/667c2dde223c9c6003f52ca4_0-After-Desktop.webp" },
+    { "id": 2, "title": "Clearance Deals", "discount": "Up to 70% Off", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSOrIHIncvVwcn86Yj1lG2no3rymRPhF1AQ&s" }
+  ],
+  "testimonials": [
+    { "id": 1, "text": "Excellent service and fast delivery!", "author": "Jane D." },
+    { "id": 2, "text": "Great product quality and support.", "author": "Mark T." },
+    { "id": 3, "text": "I always find what I need here.", "author": "Lisa K." }
+  ],
+  "brands": [
+    { "id": 1, "name": "Nike", "logo": "https://cdn-icons-png.flaticon.com/512/888/888841.png" },
+    { "id": 2, "name": "Adidas", "logo": "https://cdn-icons-png.flaticon.com/512/888/888842.png" },
+    { "id": 3, "name": "Sony", "logo": "https://cdn-icons-png.flaticon.com/512/888/888843.png" }
+  ],
+  "blog": [
+    { "id": 1, "title": "5 Tips for Smart Shopping", "image": "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D", "date": "Dec 10, 2025" },
+    { "id": 2, "title": "Top 10 Gadgets 2025", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36SlNOw2w1bICdmlTSJyVwEbgoVUAEpa6Ww&s", "date": "Dec 12, 2025" }
+  ]
+}
