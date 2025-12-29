@@ -1,14 +1,7 @@
-import {
-  StyleSheet,
-  View,
-  Text,
-  TouchableOpacity,
-  Pressable,
-  Animated,
-} from "react-native";
+import { View, Text, TouchableOpacity, Animated, Pressable, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { useRouter } from "expo-router";
-import { useEffect, useRef, useState } from "react";
+import { useRouter, useSegments } from "expo-router";
+import { useEffect, useRef } from "react";
 
 const NAV_ITEMS = [
   { label: "Home", route: "/", icon: "home-outline" },
@@ -21,9 +14,11 @@ const DRAWER_WIDTH = 260;
 
 const SideDrawer = ({ visible, onClose }) => {
   const router = useRouter();
+  const segments = useSegments(); // current path segments
+  const currentRoute = "/" + segments.join("/"); // derive full path
+
   const translateX = useRef(new Animated.Value(-DRAWER_WIDTH)).current;
   const opacity = useRef(new Animated.Value(0)).current;
-  const [activeRoute, setActiveRoute] = useState("/");
 
   useEffect(() => {
     Animated.parallel([
@@ -45,18 +40,16 @@ const SideDrawer = ({ visible, onClose }) => {
       <Animated.View style={[styles.backdrop, { opacity }]}>
         <Pressable style={{ flex: 1 }} onPress={onClose} />
       </Animated.View>
+
       <Animated.View style={[styles.drawer, { transform: [{ translateX }] }]}>
         {NAV_ITEMS.map((item) => {
-          const isActive = item.route === activeRoute;
+          const isActive = item.route === currentRoute;
+
           return (
             <TouchableOpacity
               key={item.route}
-              style={[
-                styles.item,
-                isActive && { backgroundColor: "#050442", borderRadius: 8 },
-              ]}
+              style={[styles.item, isActive && { backgroundColor: "#050442", borderRadius: 8 }]}
               onPress={() => {
-                setActiveRoute(item.route);
                 router.push(item.route);
                 onClose();
               }}
@@ -67,12 +60,7 @@ const SideDrawer = ({ visible, onClose }) => {
                 size={22}
                 color={isActive ? "#FFFFFF" : "#E5E7EB"}
               />
-              <Text
-                style={[
-                  styles.label,
-                  isActive && { color: "#FFFFFF", fontWeight: "600" },
-                ]}
-              >
+              <Text style={[styles.label, isActive && { color: "#FFFFFF", fontWeight: "600" }]}>
                 {item.label}
               </Text>
             </TouchableOpacity>
@@ -84,6 +72,7 @@ const SideDrawer = ({ visible, onClose }) => {
 };
 
 export default SideDrawer;
+
 
 const styles = StyleSheet.create({
   overlay: {
